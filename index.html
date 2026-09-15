@@ -13,42 +13,40 @@
 </head>
 <body>
 
-<header class="masthead">
-  <div class="masthead-inner">
-    <div class="portrait">
-      <img src="assets/profile.jpg" alt="Portrait of Yusser Al Ghussin"
-           onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'monogram',textContent:'YA'}))">
-    </div>
-    <div class="identity">
-      <h1>Yusser Al&nbsp;Ghussin</h1>
-      <p class="role">PhD student in Natural Language Processing<br>
-        E&amp;E Group, Multilinguality &amp; Language Technology, DFKI<br>
-        Saarland University, Saarbrücken</p>
-      <p class="contact-line">
-        <a href="mailto:yusser.al_ghussin@dfki.de">yusser.al_ghussin@dfki.de</a>
-      </p>
-      <p class="profile-links">
-        <a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">Google Scholar</a>
-        <a href="https://github.com/Yusser96">GitHub</a>
-        <a href="https://huggingface.co/Yusser">Hugging Face</a>
-        <a href="https://www.linkedin.com/in/yusser-al-ghussin-402a30158/">LinkedIn</a>
-        <a href="https://trails-dfki.github.io">TRAILS</a>
-        <a href="https://www.soofi.info">SOOFI</a>
-      </p>
-    </div>
-    <svg class="steering" viewBox="0 0 160 120" aria-hidden="true">
-      <g fill="currentColor" opacity="0.35">
-        <circle cx="18" cy="86" r="3"/><circle cx="44" cy="98" r="2.4"/>
-        <circle cx="36" cy="64" r="2.2"/><circle cx="66" cy="78" r="3"/>
-        <circle cx="58" cy="46" r="2.2"/><circle cx="92" cy="58" r="2.6"/>
-        <circle cx="84" cy="30" r="2"/><circle cx="116" cy="40" r="2.6"/>
-        <circle cx="128" cy="66" r="2"/><circle cx="104" cy="90" r="2.2"/>
-      </g>
-      <path d="M20 100 C 55 85, 90 55, 132 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
-      <path d="M124 22 L 134 22.5 L 128.5 31" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
+<div class="layout">
+
+<aside class="sidebar">
+  <div class="portrait">
+    <img src="assets/profile.jpg" alt="Portrait of Yusser Al Ghussin"
+         onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'monogram',textContent:'YA'}))">
   </div>
-</header>
+  <h1>Yusser Al&nbsp;Ghussin</h1>
+  <p class="role">PhD student in Natural Language Processing</p>
+  <p class="affiliation">E&amp;E Group, Multilinguality &amp; Language Technology, DFKI<br>
+    Saarland University, Saarbrücken</p>
+  <nav class="side-links" aria-label="Profiles">
+    <a href="mailto:yusser.al_ghussin@dfki.de">yusser.al_ghussin@dfki.de</a>
+    <a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">Google Scholar</a>
+    <a href="https://github.com/Yusser96">GitHub</a>
+    <a href="https://huggingface.co/Yusser">Hugging Face</a>
+    <a href="https://www.linkedin.com/in/yusser-al-ghussin-402a30158/">LinkedIn</a>
+    <a href="https://trails-dfki.github.io">TRAILS</a>
+    <a href="https://www.soofi.info">SOOFI</a>
+  </nav>
+  <svg class="steering" viewBox="0 0 160 120" aria-hidden="true">
+    <g fill="currentColor" opacity="0.35">
+      <circle cx="18" cy="86" r="3"/><circle cx="44" cy="98" r="2.4"/>
+      <circle cx="36" cy="64" r="2.2"/><circle cx="66" cy="78" r="3"/>
+      <circle cx="58" cy="46" r="2.2"/><circle cx="92" cy="58" r="2.6"/>
+      <circle cx="84" cy="30" r="2"/><circle cx="116" cy="40" r="2.6"/>
+      <circle cx="128" cy="66" r="2"/><circle cx="104" cy="90" r="2.2"/>
+    </g>
+    <path d="M20 100 C 55 85, 90 55, 132 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M124 22 L 134 22.5 L 128.5 31" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</aside>
+
+<div class="content">
 
 <nav class="tabs" aria-label="Sections">
   <a href="#research">Research</a>
@@ -192,6 +190,10 @@
 <footer>
   <p>Yusser Al Ghussin &middot; DFKI, Saarbrücken &middot; <a href="mailto:yusser.al_ghussin@dfki.de">yusser.al_ghussin@dfki.de</a></p>
 </footer>
+
+</div>
+
+</div>
 
 </body>
 </html>
