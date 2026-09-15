@@ -319,6 +319,34 @@ h3 {
 .project-name a { text-decoration: none; }
 .project-name a:hover { text-decoration: underline; }
 
+.teaching-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.teaching-list li {
+  margin-bottom: 0.9rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--rule);
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.teaching-term {
+  display: block;
+  font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--teal-deep);
+}
+
+.teaching-course {
+  display: block;
+  font-weight: 600;
+  color: var(--ink);
+}
+
 .service-list { padding-left: 1.2rem; }
 .service-list li { margin-bottom: 0.5rem; }
 
