@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yusser Al Ghussin</title>
+  <meta name="description" content="Yusser Al Ghussin — PhD student at DFKI (TRAILS) and Saarland University. Multilingual NLP, interpretability, sparse autoencoders, and cultural knowledge in language models.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%2314655C'/><text x='50' y='66' font-size='48' text-anchor='middle' fill='white' font-family='Georgia'>Y</text></svg>">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="portrait">
+      <img src="assets/profile.jpg" alt="Portrait of Yusser Al Ghussin"
+           onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'monogram',textContent:'YA'}))">
+    </div>
+    <div class="identity">
+      <h1>Yusser Al&nbsp;Ghussin</h1>
+      <p class="role">PhD student in Natural Language Processing<br>
+        DFKI &middot; TRAILS &middot; Saarland University, Saarbrücken</p>
+      <p class="contact-line">
+        <a href="mailto:yusser.al_ghussin@dfki.de">yusser.al_ghussin@dfki.de</a>
+      </p>
+      <p class="profile-links">
+        <a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://github.com/Yusser96">GitHub</a>
+        <a href="https://huggingface.co/Yusser">Hugging Face</a>
+        <a href="https://www.linkedin.com/in/yusser-al-ghussin-402a30158/">LinkedIn</a>
+        <a href="https://trails-dfki.github.io">TRAILS</a>
+      </p>
+    </div>
+    <svg class="steering" viewBox="0 0 160 120" aria-hidden="true">
+      <g fill="currentColor" opacity="0.35">
+        <circle cx="18" cy="86" r="3"/><circle cx="44" cy="98" r="2.4"/>
+        <circle cx="36" cy="64" r="2.2"/><circle cx="66" cy="78" r="3"/>
+        <circle cx="58" cy="46" r="2.2"/><circle cx="92" cy="58" r="2.6"/>
+        <circle cx="84" cy="30" r="2"/><circle cx="116" cy="40" r="2.6"/>
+        <circle cx="128" cy="66" r="2"/><circle cx="104" cy="90" r="2.2"/>
+      </g>
+      <path d="M20 100 C 55 85, 90 55, 132 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M124 22 L 134 22.5 L 128.5 31" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Sections">
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#software">Software &amp; Models</a>
+  <a href="#service">Service</a>
+</nav>
+
+<main>
+
+<section id="research">
+  <h2>Research</h2>
+  <p>Welcome! I am a PhD student at the <a href="https://www.dfki.de/en/web">German Research Center for Artificial Intelligence (DFKI)</a> and Saarland University, working in the <a href="https://trails-dfki.github.io">TRAILS</a> group on trustworthy and inclusive language technology. I am interested in how large language models represent and use knowledge across languages and cultures — and in the tools that let us look inside them.</p>
+  <p>My current work centers on three threads:</p>
+  <ul class="research-threads">
+    <li><strong>Mechanistic interpretability for multilingual models.</strong> I train and analyze sparse autoencoders (SAEs) across languages and architectures — from Llama, Qwen, and Gemma to hybrid Mamba-attention models — to understand which features are shared across languages and which are language-specific.</li>
+    <li><strong>Steering and controlled generation.</strong> Building on interpretability, I develop activation-steering methods that push multilingual models toward cultural knowledge, better low-resource synthetic data, and controlled linguistic behavior such as tense.</li>
+    <li><strong>Culturally sensitive and inclusive NLP.</strong> I study how cultural and locale-specific knowledge is encoded in models, including contamination-robust translation benchmarks, stereotype tracing, and dialectal Arabic speech processing.</li>
+  </ul>
+  <p>Earlier in my PhD I worked on document-level neural machine translation, exploring how web-crawled parallel data such as ParaCrawl can be used beyond the sentence level.</p>
+  <p class="keywords">Multilingual NLP &middot; interpretability &middot; sparse autoencoders &middot; activation steering &middot; machine translation &middot; cultural knowledge in LLMs</p>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <p class="section-note">Also on <a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+
+  <h3>2026</h3>
+  <ol class="pubs">
+    <li>
+      <span class="pub-title"><a href="https://arxiv.org/abs/2605.23036">Multilingual Steering by Design: Multilingual Sparse Autoencoders and Principled Layer Selection</a></span>
+      <span class="pub-authors"><em>Yusser Al Ghussin</em>, Daniil Gurgurov, Tanja Baeumel, Josef van Genabith, Patrick Schramowski, et al.</span>
+      <span class="pub-venue">6th Workshop on Trustworthy NLP (TrustNLP 2026)</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">DFKI-MLT at SemEval-2026 Task 7: Steering Multilingual Models towards Cultural Knowledge</a></span>
+      <span class="pub-authors"><em>Yusser Al Ghussin</em>, Daniil Gurgurov, Yasser Hamidullah, Josef van Genabith, et al.</span>
+      <span class="pub-venue">20th International Workshop on Semantic Evaluation (SemEval 2026)</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://arxiv.org/abs/2601.08331">CLaS-Bench: A Cross-Lingual Alignment and Steering Benchmark</a></span>
+      <span class="pub-authors">Daniil Gurgurov, <em>Yusser Al Ghussin</em>, Tanja Baeumel, Chen-Tse Chou, Patrick Schramowski, et al.</span>
+      <span class="pub-venue">arXiv:2601.08331</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation</a></span>
+      <span class="pub-authors">Yasser Hamidullah, Koel Dutta Chowdhury, <em>Yusser Al Ghussin</em>, Sepehr Yazdani, Cennet Oguz, et al.</span>
+      <span class="pub-venue">International Conference on Learning Representations (ICLR 2026)</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://arxiv.org/abs/2608.09766">Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness</a></span>
+      <span class="pub-authors">Pin-Jie Chen, Koel Dutta Chowdhury, Xintong Xu, Daria Tan, Deborah Osmelak, Ona de Gibert, et al. (incl. <em>Yusser Al Ghussin</em>)</span>
+      <span class="pub-venue">arXiv:2608.09766</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://arxiv.org/abs/2609.08322">Tracing Stereotypes from Representation to Output in Multilingual LLMs</a></span>
+      <span class="pub-authors">Ariun-Erdene Tumurchuluun, <em>Yusser Al Ghussin</em>, Pin-Jie Chen, Josef van Genabith, Koel Dutta Chowdhury</span>
+      <span class="pub-venue">arXiv:2609.08322</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://arxiv.org/abs/2606.18389">Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation</a></span>
+      <span class="pub-authors">Jan Cegin, Daniil Gurgurov, <em>Yusser Al Ghussin</em>, Simon Ostermann</span>
+      <span class="pub-venue">arXiv:2606.18389</span>
+    </li>
+  </ol>
+
+  <h3>2025</h3>
+  <ol class="pubs">
+    <li>
+      <span class="pub-title"><a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">Language Arithmetics: Towards Systematic Language Neuron Identification and Manipulation</a></span>
+      <span class="pub-authors">Daniil Gurgurov, Katharina Trinley, <em>Yusser Al Ghussin</em>, Tanja Baeumel, Josef van Genabith, et al.</span>
+      <span class="pub-venue">14th International Joint Conference on Natural Language Processing (IJCNLP-AACL 2025)</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">Modular Arithmetic: Language Models Solve Math Digit by Digit</a></span>
+      <span class="pub-authors">Tanja Baeumel, Daniil Gurgurov, <em>Yusser Al Ghussin</em>, Josef van Genabith, Simon Ostermann</span>
+      <span class="pub-venue">14th International Joint Conference on Natural Language Processing (IJCNLP-AACL 2025)</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">TenseLoC: Tense Localization and Control in a Multilingual LLM</a></span>
+      <span class="pub-authors">Ariun-Erdene Tumurchuluun, <em>Yusser Al Ghussin</em>, David Mareček, Josef van Genabith, et al.</span>
+      <span class="pub-venue">5th Workshop on Multilingual Representation Learning (MRL 2025)</span>
+    </li>
+    <li>
+      <span class="pub-title"><a href="https://scholar.google.com/citations?user=9yrUZzwAAAAJ&amp;hl=en">Saarland-Groningen at NADI 2025 Shared Task: Effective Dialectal Arabic Speech Processing under Data Constraints</a></span>
+      <span class="pub-authors">Badr M. Abdullah, <em>Yusser Al Ghussin</em>, Zena Al-Khalili, et al.</span>
+      <span class="pub-venue">Third Arabic Natural Language Processing Conference (ArabicNLP 2025)</span>
+    </li>
+  </ol>
+
+  <h3>2023</h3>
+  <ol class="pubs">
+    <li>
+      <span class="pub-title"><a href="https://aclanthology.org/2023.findings-eacl.62/">Exploring Paracrawl for Document-level Neural Machine Translation</a></span>
+      <span class="pub-authors"><em>Yusser Al Ghussin</em>, Jingyi Zhang, Josef van Genabith</span>
+      <span class="pub-venue">17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023)</span>
+    </li>
+  </ol>
+</section>
+
+<section id="software">
+  <h2>Software &amp; Models</h2>
+  <p>I release most of my research artifacts openly — over 100 models and 20 datasets on <a href="https://huggingface.co/Yusser">Hugging Face</a>, and code on <a href="https://github.com/Yusser96">GitHub</a>. Highlights:</p>
+  <ul class="projects">
+    <li>
+      <span class="project-name"><a href="https://github.com/Yusser96/nemotron-lens">nemotron-lens</a></span>
+      TransformerLens-style interpretability tooling for NVIDIA Nemotron hybrid models (Mamba-2 + attention + MoE): hook any location, cache activations, train JumpReLU SAEs, and evaluate them with SAE-Bench.
+    </li>
+    <li>
+      <span class="project-name"><a href="https://huggingface.co/Yusser">MULTI21-SAES</a></span>
+      Multilingual sparse autoencoder suites for Qwen3, Llama&nbsp;3.1, and Gemma&nbsp;2, from the work on multilingual steering by design.
+    </li>
+    <li>
+      <span class="project-name"><a href="https://github.com/Yusser96/SAE-Topics">SAE-Topics</a></span>
+      Probing Gemma Scope SAEs across layers and decomposing features into topic and lexical subspaces, compared against classical topic models (LDA, BERTopic, NMF, Top2Vec).
+    </li>
+    <li>
+      <span class="project-name"><a href="https://github.com/Yusser96/FineWeb-CLaR">FineWeb-CLaR</a></span>
+      Culture- and region-annotated corpora derived from FineWeb, for studying cultural and locale signals in pretraining data.
+    </li>
+    <li>
+      <span class="project-name"><a href="https://github.com/Yusser96/cultural-nlp-hub">cultural-nlp-hub</a></span>
+      A living, filterable catalog of cultural-NLP datasets with multi-annotator coding and a community submission workflow.
+    </li>
+  </ul>
+</section>
+
+<section id="service">
+  <h2>Service</h2>
+  <ul class="service-list">
+    <li>Member of the <a href="https://trails-dfki.github.io">TRAILS</a> project (Trustworthy and Inclusive Machines), funded by the German Federal Ministry of Research, Technology and Space.</li>
+    <li>Shared-task participant and system builder: SemEval-2026 Task&nbsp;7 (cultural knowledge) and NADI 2025 (dialectal Arabic speech processing).</li>
+    <li>Open-source contributor to the multilingual interpretability ecosystem — SAE training pipelines, benchmarks, and datasets.</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <p>Yusser Al Ghussin &middot; DFKI, Saarbrücken &middot; <a href="mailto:yusser.al_ghussin@dfki.de">yusser.al_ghussin@dfki.de</a></p>
+</footer>
+
+</body>
+</html>
