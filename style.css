@@ -131,12 +131,44 @@ a:focus-visible {
 }
 .side-links a:hover { text-decoration: underline; }
 
-.steering {
-  width: 7.5rem;
-  margin-top: auto;
-  padding-top: 1.5rem;
-  color: var(--teal);
-  opacity: 0.5;
+.side-rule {
+  width: 100%;
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 1.3rem 0 0;
+}
+
+.highlight {
+  width: 100%;
+  margin-top: 1.3rem;
+  padding: 0.85rem 1rem 0.95rem;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--teal);
+  border-radius: 0 6px 6px 0;
+  text-align: left;
+}
+
+.highlight-label {
+  margin: 0 0 0.25rem;
+  font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.highlight-name {
+  font-weight: 600;
+  font-size: 1.02rem;
+  text-decoration: none;
+}
+.highlight-name:hover { text-decoration: underline; }
+
+.highlight-desc {
+  margin: 0.3rem 0 0;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
 }
 
 /* ---------- Right column ---------- */
@@ -315,7 +347,7 @@ footer {
     gap: 0.4rem 1.1rem;
   }
 
-  .steering { display: none; }
+  .highlight { max-width: 24rem; margin-left: auto; margin-right: auto; }
 
   .tabs {
     padding: 0.7rem 1.25rem;
