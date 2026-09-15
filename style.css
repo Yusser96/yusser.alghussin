@@ -164,6 +164,13 @@ a:focus-visible {
 }
 .highlight-name:hover { text-decoration: underline; }
 
+.highlight-more {
+  display: block;
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--rule);
+}
+
 .highlight-desc {
   margin: 0.3rem 0 0;
   font-size: 0.86rem;
