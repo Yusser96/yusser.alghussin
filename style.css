@@ -347,9 +347,6 @@ h3 {
   color: var(--ink);
 }
 
-.service-list { padding-left: 1.2rem; }
-.service-list li { margin-bottom: 0.5rem; }
-
 /* ---------- Footer ---------- */
 
 footer {
