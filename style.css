@@ -316,6 +316,8 @@ h3 {
   display: block;
   font-weight: 600;
 }
+
+.project-role { margin-bottom: 0.45rem; }
 .project-name a { text-decoration: none; }
 .project-name a:hover { text-decoration: underline; }
 
