@@ -112,12 +112,26 @@ a:focus-visible {
   line-height: 1.5;
 }
 
-.side-links {
+.side-email {
   width: 100%;
+  margin: 0 0 0.3rem;
   padding-top: 1.1rem;
   border-top: 1px solid var(--rule);
   text-align: center;
-  line-height: 1.9;
+  font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.side-email a {
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.side-links {
+  width: 100%;
+  text-align: center;
+  line-height: 1.8;
   color: var(--ink-soft);
   font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.88rem;
@@ -126,7 +140,7 @@ a:focus-visible {
 
 .side-links a {
   text-decoration: none;
-  overflow-wrap: anywhere;
+  white-space: nowrap;
 }
 .side-links a:hover { text-decoration: underline; }
 
