@@ -333,7 +333,8 @@ h3 {
   font-size: 0.95rem;
 }
 
-.teaching-term {
+.teaching-term,
+.project-role {
   display: block;
   font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.8rem;
